@@ -7,7 +7,3 @@ resource "aws_instance" "ec2_instance" {
     Name = var.instance_name
   }
 }
-
-output "ec2_instance_id" {
-  value = aws_instance.ec2_instance.id
-}
